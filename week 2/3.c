@@ -39,7 +39,6 @@ int main() {
 
     mergeArrays(arr1, n1, arr2, n2, arr3);
 
-    // Display the merged array
     printf("Merged array:\n");
     for (i = 0; i < n1 + n2; i++) {
         printf("%d ", arr3[i]);
